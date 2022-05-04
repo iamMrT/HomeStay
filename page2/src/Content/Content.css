@@ -1,0 +1,147 @@
+.content{
+    display: flex;
+    background-color: #14274A;
+    height: 1088px;
+    justify-content: center;
+}
+
+.content__box{
+    display: flex;
+    margin-left: 160px;
+    padding: 68px 89px;
+    flex-direction: column;
+    width: 501px;
+    height: 690px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.content__box h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.content__box--fb{
+    background: url('./image\ 18.png');
+}
+
+.content__box--gg{
+    background: url('./image\ 18\ \(1\).png');
+}
+
+.box__btn{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    align-items: center;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.box__btn a{
+    display: inline-block;
+    background-size: contain;
+    width: 38px;
+    height: 28px;
+}
+
+.textLogin{
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.span__left{
+    border-top: #000 1px solid;
+    opacity: 0.3;
+    width: 20%;
+    height: 20px;
+    margin-top: 23px;
+    display: inline-block;
+}
+
+.span__right{
+    border-top: #000 1px solid;
+    opacity: 0.3;
+    width: 20%;
+    height: 20px;
+    margin-top: 23px;
+    display: inline-block;
+}
+
+.boxRow3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__box input{
+    border: 1px solid #000;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 13px;
+    opacity: 0.5;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.textUser{
+    color: #BB3737;
+    font-size: 14px;
+    margin: 0;
+}
+
+.textUser input{
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 12px;
+}
+
+.textPass{
+    color: #BB3737;
+    font-size: 14px;
+    margin: 0;
+    margin-left: 34px;
+}
+
+.btnLogin{
+    border: 1px solid #000;
+    background-color: #14274A;
+    text-align: center;
+    color: #fff;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.contentBox__col2{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.textCol2__what{
+    font-size: 14px;
+    color:#000;
+    opacity: 0.5;
+}
+
+.textCol2__signUp{
+    font-size: 14px;
+    color:#BB3737;
+}
+
+
+
